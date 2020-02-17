@@ -17,7 +17,7 @@ class Controller extends BaseController
             [
                 'status_code' => $status,
                 'data' => $data,
-                'errors' => $errors],
+                'errors' => $errors, ],
             $status
         );
     }

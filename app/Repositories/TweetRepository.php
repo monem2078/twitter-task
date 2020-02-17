@@ -1,8 +1,6 @@
 <?php
 
-
 namespace App\Repositories;
-
 
 use App\Tweet;
 use Prettus\Repository\Eloquent\BaseRepository;
@@ -22,8 +20,8 @@ class TweetRepository extends BaseRepository
 
     public function create(array $attributes)
     {
-         $tweet = auth()->user()->tweets()->create($attributes);
+        $tweet = auth()->user()->tweets()->create($attributes);
 
-         return $tweet;
+        return $tweet;
     }
 }
