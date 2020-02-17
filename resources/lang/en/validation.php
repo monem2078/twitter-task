@@ -1,7 +1,6 @@
 <?php
 
 return [
-
     /*
     |--------------------------------------------------------------------------
     | Validation Language Lines
@@ -11,7 +10,7 @@ return [
     | the validator class. Some of these rules have multiple versions such
     | as the size rules. Feel free to tweak each of these messages here.
     |
-    */
+     */
 
     'accepted' => 'The :attribute must be accepted.',
     'active_url' => 'The :attribute is not a valid URL.',
@@ -127,7 +126,7 @@ return [
     | convention "attribute.rule" to name the lines. This makes it quick to
     | specify a specific custom language line for a given attribute rule.
     |
-    */
+     */
 
     'custom' => [
         'attribute-name' => [
@@ -144,14 +143,14 @@ return [
     | with something more reader friendly such as "E-Mail Address" instead
     | of "email". This simply helps us make our message more expressive.
     |
-    */
+     */
 
     'attributes' => [],
 
-    'body_ar_required' => 'A arabic body is required',
-    'body_ar_max' => 'A arabic body cannot excceds 140 letters',
-    'body_en_required' => 'A english body is required',
-    'body_en_max' => 'A english body cannot excceds 140 letters',
+    'body_ar_required' => 'An arabic body is required',
+    'body_ar_max' => 'An arabic body cannot excceds 140 letters',
+    'body_en_required' => 'An english body is required',
+    'body_en_max' => 'An english body cannot excceds 140 letters',
     'name_required' => 'Name is required',
     'password_required' => 'Password is required',
     'password_min' => 'Password less than 6 characters',
@@ -161,6 +160,7 @@ return [
     'date_date' => 'Wrong date',
     'image_required' => 'Image required',
     'tweet_deleted' => 'Tweet Has Been Deleted Successfully',
-    'user_follow' => 'User Has Been Followed Successfully'
-
+    'user_follow' => 'User Has Been Followed Successfully',
+    'email_exists' => 'E-Mail already exists',
+    'invalid_credentials' => 'Invalid credentials',
 ];

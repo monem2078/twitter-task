@@ -16,7 +16,6 @@ class TweetController extends Controller
 
     public function __construct(TweetRepository $tweetRepository)
     {
-
         $this->tweetRepository = $tweetRepository;
     }
 
@@ -31,7 +30,6 @@ class TweetController extends Controller
         }
 
         return $this->jsonReturn(200, $this->tweetRepository->create($data), null);
-
     }
 
     public function destroy(Tweet $tweet)
@@ -44,6 +42,4 @@ class TweetController extends Controller
 
         return $this->jsonReturn(401, null, null);
     }
-
-
 }

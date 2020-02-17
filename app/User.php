@@ -2,7 +2,6 @@
 
 namespace App;
 
-use Illuminate\Contracts\Auth\MustVerifyEmail;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
 use Tymon\JWTAuth\Contracts\JWTSubject;
@@ -19,7 +18,6 @@ class User extends Authenticatable implements JWTSubject
     protected $fillable = [
         'name', 'email', 'password', 'date_of_birth', 'age', 'image',
     ];
-
 
     /**
      * The attributes that should be hidden for arrays.
@@ -48,7 +46,7 @@ class User extends Authenticatable implements JWTSubject
                     'password' => 'required|min:6',
                     'email' => 'required|email',
                     'date_of_birth' => 'required|date',
-                    'image' => 'required|mimes:jpeg,jpg,png'
+                    'image' => 'required|mimes:jpeg,jpg,png',
                 );
         }
     }

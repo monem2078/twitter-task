@@ -13,13 +13,12 @@ class Controller extends BaseController
 
     public function jsonReturn($status, $data, $errors)
     {
-
-
-        return response()->json([
-            'status_code' => $status,
-            'data' => $data,
-            'errors' => $errors],
-            $status);
+        return response()->json(
+            [
+                'status_code' => $status,
+                'data' => $data,
+                'errors' => $errors],
+            $status
+        );
     }
-
 }

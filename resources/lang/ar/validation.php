@@ -11,7 +11,7 @@ return [
     | the validator class. Some of these rules have multiple versions such
     | as the size rules. Feel free to tweak each of these messages here.
     |
-    */
+     */
     'body_ar_required' => 'النص بالغه العربيه مطلوب',
     'body_ar_max' => 'النص بالغه العربيه يجب الا يزيد عن 140 حرف',
     'body_en_required' => 'النص بالغه الانجليزيه مطلوب',
@@ -25,6 +25,7 @@ return [
     'date_date' => 'تاريخ ميلاد غير صحيح البنيه',
     'image_required' => 'الصوره مطلوبه',
     'tweet_deleted' => 'تم حذف التغريده بنجاح',
-    'user_follow' => 'تم متابعه المستخدم بنجاح'
-
+    'user_follow' => 'تم متابعه المستخدم بنجاح',
+    'email_exists' => 'البريد الالكتروني مسجل بالفعل',
+    'invalid_credentials' => 'بيانات التسجيل خاطئه',
 ];
