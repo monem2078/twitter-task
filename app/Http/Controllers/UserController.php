@@ -22,7 +22,6 @@ class UserController extends Controller
         $this->userRepository->follow($user);
 
         return $this->jsonReturn(200, trans('validation.user_follow'), null);
-
     }
 
     public function timeLine()
